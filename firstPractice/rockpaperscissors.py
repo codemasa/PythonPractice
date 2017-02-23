@@ -1,3 +1,8 @@
+'''
+copyright (c) 2017. Cody-Joe Abe. All rights reserved.
+
+'''
+
 import sys
 import os
 import random
