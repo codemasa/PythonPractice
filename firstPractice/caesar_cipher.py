@@ -26,7 +26,9 @@ def decoder(message, offset):
 
 
 def main(argv):
-    print(decoder("XVATBSZVKRQFNYNQF", 13))
+    user_input = input("Message to encrypt/decrypt: ")
+    offset_input = input("Enter offset: ")
+    decoder(user_input, offset_input)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
